@@ -2,7 +2,7 @@
 
 Because I sometimes use the macOS built-in VNC server to remote into my macBook from another system, I want it to stay alive when plugged into the power adapter. The only way that reliably worked for me on macOS 10.12 Monterey was to set:
 
-````
+```
 sudo pmset disablesleep 1
 ```
 
